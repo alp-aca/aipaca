@@ -1,0 +1,13 @@
+{
+    "servers": {
+        "AIPaca MCP server": {
+        "command": "poetry",
+        "args": [
+            "run",
+            "fastmcp",
+            "run",
+            "${workspaceFolder}/aipaca/mcp_server.py"
+        ]
+        }
+    }
+}

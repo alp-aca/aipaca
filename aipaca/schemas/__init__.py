@@ -1,0 +1,1 @@
+from . import alpcouplings_schema

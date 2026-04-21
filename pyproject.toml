@@ -1,0 +1,25 @@
+[project]
+name = "aipaca"
+version = "0.1.0"
+description = "AI agents to work with ALP-aca, ALPs and axions"
+authors = [
+    {name = "Jorge-Alda",email = "jorge.alda@pd.infn.it"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.13,<4.0"
+dependencies = [
+    "mcp (>=1.27.0,<2.0.0)",
+    "pydantic (>=2.13.3,<3.0.0)",
+    "alpaca-alps[matplotlib,plotly] (==1.2.0rc2)",
+    "fastmcp[tasks] (>=3.2.4,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "aipaca"
+version = "0.1.0"
