@@ -1,0 +1,8 @@
+{
+    "servers":{
+        "aipaca-mcp": {
+            "command": "uv",
+            "args": ["run", "aipaca-mcp"]
+        }
+    }
+}
